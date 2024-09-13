@@ -19,10 +19,37 @@
     border-radius: 50%;
     margin-left: 20px;
 }
-h1{
+.navbar_container h1{
     background: none;
     color: white;
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-content: center;
+    background-color: none;
+}
+.card_container{
+    flex-direction: row;
+    background-color: white;
+}
+.city{
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    float: left;
+}
+.words h1{
+    font-size: 100px;
+    font-weight: 100;
+    
+}
+.words{
+    width: 10rem;
+    float: right;
     
 }
