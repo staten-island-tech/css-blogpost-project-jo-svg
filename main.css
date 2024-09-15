@@ -74,9 +74,6 @@ body, * {
 }
 
 
-
-
-
 .card{
     margin: auto;
     margin-top: 30px;
@@ -135,9 +132,11 @@ body, * {
     
     line-height: 20px;
 }
+
+
 .secondpart{
     width: 100%;
-    height: fit-content;
+    height: 80rem;
     background-color: rgb(33, 33, 33);
 }
 .second_navbar{
@@ -146,11 +145,18 @@ body, * {
     background-color: rgb(33, 33, 33);
     border-bottom: 1px solid;
     border-top: 1px solid;
-    
     position: sticky;
     overflow: hidden;
     z-index: 999;
     top: 0;
+}
+.second_navbar h1{
+    color: white;
+    margin-left: 5%;
+    margin-top: 11px;
+}
+.second_navbar h1:hover{
+    cursor: default;
 }
 .second_navbar ul{
     font-size: large;
@@ -172,15 +178,23 @@ body, * {
     height: 2rem;
     font-size: 14px;
 }
-.second_navbar button,ul:hover{
+.second_navbar button,ul, .text button, .text_container button:hover{
     cursor: pointer;
 }
 .second_container{
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 4rem;
+}
+.second_container p{
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-left: 5%;
+    padding-bottom: 10px;
 }
 .second_container h1{
     color: white;
@@ -190,17 +204,73 @@ body, * {
     width: 10rem;
     font-size: 3rem;
 }
-#campus{
+#nature{
     width: 90%;
     object-fit: cover;
     margin: auto;
     height: 50rem;
 }
-
-.text{
+.button_container{
+    color: white;
+    height: 4rem;
+    width: fit-content;
+    margin-left: 5%;
+    border: 1px solid;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10rem;
+    margin-top: 3rem;
+}
+.button_container button{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    background: none;
+    margin-bottom: 1px;
+    margin-right: 25px;
+}
+#btn{
+    text-decoration: none;
     color: white;
 }
-
+.text {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.text h3{
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+    font-weight: lighter;
+    margin-left: 2rem;
+}
+.bottom_section{
+    display: flex;
+    column-gap: 8%;
+    margin-top: 2rem;
+}
+.text_container{
+    margin-left: 7%;
+    margin-top: 0rem;
+    width: 61rem;
+    height: 11rem;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 10px;
+}
+.text_container h3{
+    color: white;
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    margin: auto;
+    padding: 10px;
+}
 
 footer{
     width: 100%;
