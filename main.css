@@ -2,41 +2,76 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(238, 235, 230);
+    /*background-color: rgb(238, 235, 230);*/
+}
+body{
+    background-color: white;
+}
+.background_partOne {
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55rem;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: sticky;
+    z-index: 99;
+    top: 0; 
+    this is used so that the thing is priortized first and follows 
+    the user as they scroll down in a website*/
 }
 .navbar_container {
-    width: 100%;
-    height: 100px;
+    margin-top: 50px;
+    width: 55%;
+    border-radius: 100px;
+    height: 85px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(253, 253, 253, 0.5); 
+    /*border-bottom: 1px solid;*/
 }
 .profile {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-left: 100%;
+    border: 2px solid;
+    border-color: rgba(253, 253, 253, 0.8);
 }
 .profile_thing{
     display: flex;
     white-space: nowrap;
+    /*makes the entire sentence into one line*/
     background: none;
 }
 .navbar_container h1{
     background: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     justify-content: space-between;
     margin-top: 13px;
 }
-.navbar_container h2{
-    font-family: 'Courier New', Courier, monospace;
+.navbar_container button{
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 350px;
     font-size: medium;
-    text-align: right;
+    text-align: center;
     margin: 10%;
     background: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: small;
 }
 
 
@@ -44,31 +79,58 @@
 
 
 .card{
-    align-items: center;
-    place-content: center;
-    background-color: none;
-    text-align: center;
+    margin: auto;
+    margin-top: 30px;
 }
 .card_container{
     display: flex;
-    text-align: center;
-    column-gap: 10px;
+    column-gap: 50px;
+    margin: auto;
+    width: 55%;
+    height: 40rem;
+    border-radius: 50px;
+    background-color: rgba(none, 0.8); 
+    backdrop-filter: blur(10px);
+    /* blurrs wtv is behind the background */
+    overflow: hidden;
+    border: 1.5px solid;
+    border-color: rgba(255, 255, 255, 0.7);
+}
+.numberAndPic h1{
+    z-index: 2;
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 100px;
 }
 .city{
     width: 30rem;
-    height: 30rem;
+    height: 40rem;
+    border-radius: 50px;
     object-fit: cover;
     float: left;
-    border-radius: 3%;
-}
-.words h1{
-    font-size: 100px;
-    font-weight: 100;
-    font-family: 'monaco', monospace;
 }
 .words{
-    width: 10rem;
+    margin-top: 6rem;
     float: right;
-    object-fit: cover;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color: rgb(237, 237, 237);
+}
+.words h1{
+    margin-top: 15px; 
+    font-size: 50px;
+    font-weight: 1000;
+    width: 9rem;
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+    font-weight: lighter;
+}
+.words p{
+    margin-top: 15px;
+    display: flex;
+    width: 23rem;
+    margin-left: 2rem;
 }
 
