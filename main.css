@@ -137,13 +137,16 @@ body, * {
 }
 .secondpart{
     width: 100%;
-    height: 90rem;
+    height: fit-content;
+    overflow: hidden;
+    
 }
 .second_navbar{
     width: 100%;
     height: 4rem;
     background-color: white;
     border-bottom: 1px solid;
+    border-top: 1px solid;
     position: sticky;
     z-index: 99;
     overflow: hidden;
@@ -163,11 +166,26 @@ body, * {
 }
 .second_navbar button{
     background-color: white;
-    
+    width: 7rem;
+    height: 2rem;
+    font-size: 14px;
 }
-.container{
+.second_navbar button,ul:hover{
+    cursor: pointer;
+}
+.second_container{
     width: 100%;
-    height: 10rem;
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#rome{
+    max-width: 100%;
+    object-fit: cover;
+    margin: auto;
+    display: block;
 }
 
 
