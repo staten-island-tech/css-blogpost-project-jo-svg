@@ -50,7 +50,7 @@ body, * {
     /*makes the entire sentence into one line*/
     background: none;
 }
-.navbar_container h1{
+.navbar_container h2{
     background: none;
     color: rgb(255, 255, 255);
     font-size: medium;
@@ -92,7 +92,7 @@ body, * {
     border: 1.5px solid;
     border-color: rgba(255, 255, 255, 0.7);
 }
-.numberAndPic h1{
+.numberAndPic h2{
     z-index: 2;
     color: white;
     position: absolute;
@@ -150,12 +150,12 @@ body, * {
     z-index: 999;
     top: 0;
 }
-.second_navbar h1{
+.second_navbar h2{
     color: white;
     margin-left: 5%;
     margin-top: 11px;
 }
-.second_navbar h1:hover{
+.second_navbar h2:hover{
     cursor: default;
 }
 .second_navbar ul{
@@ -196,7 +196,7 @@ body, * {
     margin-left: 5%;
     padding-bottom: 10px;
 }
-.second_container h1{
+.second_container h2{
     color: white;
     font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
     font-weight: lighter;
@@ -272,6 +272,14 @@ body, * {
     padding: 10px;
 }
 
+.thirdpart{
+    width: 100%;
+    height: 60rem;
+    background-color: rgb(33, 33, 33);
+}
+
+
+
 footer{
     width: 100%;
     height: 13rem;
@@ -279,10 +287,10 @@ footer{
     display: flex;
     justify-content: space-around;
 }
-footer h1, p, ul{
+footer h2, p, ul{
     color: white;
 }
-footer h1{
+footer h2{
     font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
     font-weight: normal;
     font-size: 20px;
