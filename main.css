@@ -269,20 +269,28 @@ body, * {
     width: 100%;
     height: 60rem;
     background-color: rgb(33, 33, 33);
+    display: flex;
+    padding-top: 10rem; 
+    
+    column-gap: 3rem;
+}
+.text_part_three{
+    width: 8rem;
     
 }
-.thirdpart h3{
-    padding-top: 10rem;
+.text_part_three h3{
     font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
     font-weight: lighter;
     color: white;
     font-size: 3rem;
+
 }
 
 #paris{
     width: 50rem;
     background-size: cover;
     height: 30rem;
+    
 }
 
 
