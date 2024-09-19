@@ -3,6 +3,7 @@ body, * {
     margin: 0;
     padding: 0;
     /*background-color: rgb(238, 235, 230);*/
+   
 }
 
 .background_partOne {
@@ -141,7 +142,6 @@ body, * {
     border-bottom: 1px solid;
     border-top: 1px solid;
     position: sticky;
-    overflow: hidden;
     z-index: 999;
     top: 0;
 }
@@ -149,6 +149,7 @@ body, * {
     color: white;
     margin-left: 5%;
     margin-top: 11px;
+    
 }
 .second_navbar h2:hover{
     cursor: default;
@@ -180,8 +181,9 @@ body, * {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
+    padding-top: 10px;
     margin-bottom: 4rem;
+    overflow: hidden;
 }
 .second_container p{
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
@@ -190,6 +192,7 @@ body, * {
     letter-spacing: 1px;
     margin-left: 5%;
     padding-bottom: 10px;
+    
 }
 .second_container h2{
     color: white;
@@ -217,6 +220,7 @@ body, * {
     justify-content: space-between;
     column-gap: 10rem;
     margin-top: 3rem;
+    overflow: hidden;
 }
 .button_container button{
     width: 2.5rem;
@@ -265,14 +269,23 @@ body, * {
     margin: auto;
     padding: 10px;
 }
+
+
+
 .thirdpart{
     width: 100%;
-    height: 60rem;
+    height: 40rem;
     background-color: rgb(33, 33, 33);
+}
+.third_container{
     display: flex;
-    padding-top: 10rem; 
-    
+    border: 1px solid white;
+    overflow: hidden;
+    width: 70rem;
+    margin: auto;
     column-gap: 3rem;
+    border-radius: 30px;
+    
 }
 .text_part_three{
     width: 8rem;
@@ -281,16 +294,20 @@ body, * {
 .text_part_three h3{
     font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
     font-weight: lighter;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 3rem;
-
+    margin-top: 10px;
 }
-
+.text_part_three p{
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+}
 #paris{
     width: 50rem;
     background-size: cover;
     height: 30rem;
-    
+    border-radius: 30px;
 }
 
 
@@ -311,12 +328,14 @@ footer{
 }
 footer h2, p, ul{
     color: white;
+   
 }
 footer h2{
     font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
     font-weight: normal;
     font-size: 20px;
     margin-top: 3rem;
+    
 }
 footer p, ul{
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
@@ -326,9 +345,12 @@ footer p, ul{
     letter-spacing: 1px;
     margin-top: 8px;
 }
+
 .about_us{
     width: 20rem;
+  
 }
 .recent_posts{
     width: 20rem;
+   
 }
